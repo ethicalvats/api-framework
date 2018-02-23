@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "target": "es2015",
+      "types": ["reflect-metadata"],
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "lib": ["es6", "dom"],
+      "allowUnreachableCode": true,
+      "sourceMap": true,
+      "rootDir": "./src/",
+      "outDir": "./dist/",
+      "watch":true
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": true
+  }
