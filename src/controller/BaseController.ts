@@ -38,7 +38,7 @@ export abstract class BaseController {
    */
   public renderError(req:Request, res:Response, errors:any){
     res.status(500)
-    return res.json({error:errors.message})
+    return res.json({error:errors.message});
   }
 
 }

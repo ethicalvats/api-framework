@@ -118,7 +118,7 @@ export class DemoServiceImpl implements DemoService {
                 throw new Error(err)
             })
 
-        return updatedDb
+        return updatedDb;
 
     }
 
