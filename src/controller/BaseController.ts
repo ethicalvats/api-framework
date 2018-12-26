@@ -23,6 +23,7 @@ export abstract class BaseController {
    */
   public renderJSON(req: Request, res: Response, options: Object, status:number = 200) {
     res.status(status)
+    var sas=0;
     return res.json(options)
   }
 
